@@ -1,0 +1,3 @@
+[submodule "public/models"]
+	path = public/models
+	url = https://github.com/affinelayer/pix2pix-tensorflow-models.git

@@ -1,0 +1,30 @@
+{
+  "name": "pix2pix-react",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Example use of pix2pix-tensorflow as a react component.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "deeplearn",
+    "react",
+    "tensorflow"
+  ],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (http://konsumer.js.org)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.2.1"
+  },
+  "dependencies": {
+    "deeplearn": "^0.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "staticFiles": {
+    "staticPath": "public",
+    "watcherGlob": "**"
+  }
+}
