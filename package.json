@@ -26,5 +26,6 @@
   "staticFiles": {
     "staticPath": "public",
     "watcherGlob": "**"
-  }
+  },
+  "browserslist": ["Chrome 78"]
 }
