@@ -9,7 +9,7 @@ This is a more modern take on [pix2pix-tensorflow](https://github.com/affinelaye
 It uses a submodule for the pre-trained models. You can get everything and start a demo webserver with these commands:
 
 ```
-git clone --recurse git@github.com:konsumer/pix2pix-react.git
+git clone --recurse-submodules https://github.com/konsumer/pix2pix-react.git
 cd pix2pix-react
 npm i
 npm start
